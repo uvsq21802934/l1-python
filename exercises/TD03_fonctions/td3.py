@@ -154,4 +154,19 @@ def tempsEnDateBissextile(temps):
     temps_ajuste = (jour, heure, minute, seconde)
     return tempsEnDate(temps_ajuste)
 
-    afficheDate(tempsEnDateBissextile(secondeEnTemps(int(time.time()))))
+    #afficheDate(tempsEnDateBissextile(secondeEnTemps(int(time.time()))))
+   
+
+    def calculDeFonction(x):
+    """ fonction qui multiplie l'argument par 2 puis
+    qui ajoute 7 si l'argument est supérieur à 0,
+    ou qui affiche 0 si l'argument est inférieur à 0."""
+    if x > 0:
+        (x*2) + 7
+        print(x)
+    else:
+        print("0")
+    return(x)
+
+
+calculDeFonction(4)
